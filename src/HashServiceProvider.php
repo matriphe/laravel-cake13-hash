@@ -12,16 +12,16 @@ class HashServiceProvider extends ServiceProvider
      * @var bool
      */
     protected $defer = true;
-    
+
     /**
      * Bootstrap the application services.
      */
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/cake.php' => config_path('cake.php')
+            __DIR__.'/../config/cake.php' => config_path('cake.php'),
         ]);
-        
+
         $this->mergeConfigFrom(
             __DIR__.'/../config/cake.php', 'cake'
         );

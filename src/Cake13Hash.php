@@ -7,12 +7,12 @@ use Illuminate\Contracts\Hashing\Hasher;
 class Cake13Hash implements Hasher
 {
     protected $salt = null;
-    
+
     public function __construct($salt = null)
     {
         $this->salt = $salt;
     }
-    
+
     /**
      * Hash the given value.
      *
@@ -22,7 +22,7 @@ class Cake13Hash implements Hasher
      */
     public function make($value, array $options = [])
     {
-        return hash('sha1', $this->salt . $value);
+        return hash('sha1', $this->salt.$value);
     }
 
     /**

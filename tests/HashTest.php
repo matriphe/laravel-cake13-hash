@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 class HashTest extends TestCase
 {
     protected $salt = 'zamroni';
-    
+
     public function setUp()
     {
         parent::setUp();

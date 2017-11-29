@@ -1,4 +1,4 @@
-# Laravel MD5 Hash
+# Laravel Cake 1.3 Hash
 
 [![Build Status](https://travis-ci.org/matriphe/laravel-cake13-hash.svg?branch=master)](https://travis-ci.org/matriphe/laravel-cake13-hash)
 [![Total Download](https://img.shields.io/packagist/dt/matriphe/laravel-cake13-hash.svg)](https://packagist.org/packages/matriphe/laravel-cake13-hash)

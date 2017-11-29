@@ -1,5 +1,5 @@
 <?php
-    
+
 return [
     /*
      * The security salt from Cake Security class salt that written in the
